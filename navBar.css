@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background: #aac9a1;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+}
+header{
+    width: 100%;
+}
+nav{
+    color:black;
+    background: #e3e8e2;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+}
+nav img{
+    width: 70px;
+}
+
+nav .fa-solid {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+@media only screen and (max-width: 900px){
+    nav .fa-solid{
+        display: block;
+    }
+    #sidemenu{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        background: #181818;
+        flex-direction: column;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        padding-top: 600px;
+        transition: right 0.5s;
+    }
+    #sidemenu li{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #sidemenu .fa-xmark{
+        display: block;
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+   .game-controller{height: 260px;
+  width:260px; border-style: solid;
+   border-color: #141414; border-width: 5px;
+   border-radius: 10px;}
+
+   .blog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .cards1 {display: flex;
+        flex-direction: column;
+    place-items: left; padding: 50px;}
+
+    .bangladeshi-kids{height: 260px;
+        width:260px; border-style: solid;
+         border-color: #141414; border-width: 5px;
+         border-radius: 10px;}
+
+         .cards2 {display: flex;
+            flex-direction: column;
+            place-items: left; padding: 50px;}
+
+    .islam-culture{height: 260px;
+        width:260px; border-style: solid;
+         border-color: #141414; border-width: 5px;
+         border-radius: 10px;}  
+         
+         .cards3 {display: flex;
+            flex-direction: column;
+            place-items: left; padding: 50px;}
+
+    .black-board{height: 260px;
+        width:260px; border-style: solid;
+         border-color: #141414; border-width: 5px;
+         border-radius: 10px;} 
+         
+         .cards4{display: flex;
+            flex-direction: column;
+            place-items: left; padding: 50px;}
+
+     .burger-fries{height: 260px;
+        width:260px; border-style: solid;
+         border-color: #141414; border-width: 5px;
+         border-radius: 10px;}     
+         
+         .cards5{display: flex;
+            flex-direction: column;
+            place-items: left; padding: 50px;}
+
+     .my_goals{height: 260px;
+        width:260px; border-style: solid;
+         border-color: #141414; border-width: 5px;
+        border-radius: 10px;}     
+         
+         .cards6{display: flex;
+            flex-direction: column;
+            place-items: left; padding: 50px;}
+
+            h2 {padding: 10px; text-align: center;}
+
+
+
+    

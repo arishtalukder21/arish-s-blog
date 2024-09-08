@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navBar.css">
+    <script src="https://kit.fontawesome.com/b8626bf653.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav >
+            <a href="https://www.apple.com"><img src="logo.png" alt=""></a>
+            <ul id="sidemenu">
+                <li><a href="">About</a></li>
+                <li><a href="">Rules</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">About Me</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+    </header>
+    
+     <div class="blog">
+      
+      <div class="cards1">
+       
+       <img src="game-controller.jpg" class="game-controller"></img>
+         
+
+       <a href="blog_about_gaming.html"><h2>My favorite games</h2></a>
+      
+      </div>
+
+      <div class="cards2">
+
+        <img src="Our_Bangladesh.jpg" class="bangladeshi-kids"></img>
+
+       <a href="blog_abt_whereim_from.html"><h2>Where I'm from</h2></a>
+
+      </div>
+
+      <div class="cards3">
+
+        <img src="islam_culture.webp" class="islam-culture"></img>
+
+       <a href="blog_abt_my_culture.html"><h2>My culture</h2></a>
+
+      </div>
+
+      <div class="cards4">
+
+        <img src="school-education.jpg" class="black-board"></img>
+
+       <a href="blog_school_life.html"><h2>My school life</h2></a>
+
+      </div>
+      
+      <div class="cards5">
+
+        <img src="food.webp" class="burger-fries"></img>
+
+       <a href="blog_food.html"><h2>My favorite foods</h2></a>
+ 
+      </div>
+
+      <div class="cards6">
+
+        <img src="goal.jpg" class="my_goals"></img>
+
+       <a href="blog_goals.html"><h2>My goals in life</h2></a>
+ 
+      </div>
+
+
+      
+
+
+
+     </div>
+
+      <footer>
+       <ul>
+
+        <li><a href="">Rules</a></li>
+        <li><a href="">Contact</a></li>
+         <li><a href="">Terms and Conditions</a></li>
+
+
+       </ul>
+    
+      </footer>
+
+
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-100%";
+        }
+
+    </script>
+       
+</body>
+</html>
+
